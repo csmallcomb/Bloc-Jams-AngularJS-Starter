@@ -1,6 +1,6 @@
 (function() {
     function CollectionCtrl(Fixtures) {
-        this.albumData = Fixtures.getCollection(12);
+        this.albums = Fixtures.getCollection(12);
     }
     angular
         .module('blocJams')
