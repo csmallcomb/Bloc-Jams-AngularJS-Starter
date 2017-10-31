@@ -157,6 +157,10 @@
             }
         };
 
+        SongPlayer.volume = function(value) {
+            SongPlayer.setVolume(value);
+        };
+
         return SongPlayer;
     }
     angular
