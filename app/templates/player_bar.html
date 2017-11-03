@@ -29,13 +29,13 @@
                     max="{{ playerBar.songPlayer.currentSong.duration }}"
                     on-change="playerBar.setCurrentTime(value)">
                 </seek-bar>
-<<<<<<< HEAD
+
                 <div class="current-time">{{ playerBar.songPlayer.currentTime | timecode }}</div>
                 <div class="total-time">{{ album.songs.duration | timecode }}</div>
-=======
+
                 <div class="current-time"> {{ SongPlayer.currentTime }} </div>
                 <div class="total-time">{{ album.songs.duration }}</div>
->>>>>>> as-10-directives-2
+
             </div>
         </div>
 
@@ -45,8 +45,6 @@
                 value="{{ SongPlayer.volume }}"
                 max="100"
                 on-change="SongPlayer.setVolume(value)">
-                    <div class="fill"></div>
-                    <div class="thumb"></div>
             </seek-bar>
         </div>
     </div>
